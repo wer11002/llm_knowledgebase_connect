@@ -1,0 +1,107 @@
+[
+  {
+    "paper_id": "paper_001",
+    "section": "Related Work",
+    "extracted_facts": {
+      "datasets": [
+        "cSysGuard dataset",
+        "Prometheus dataset"
+      ],
+      "models": [
+        "cSysGuard",
+        "LSTM",
+        "GRU",
+        "ARIMA",
+        "Decision Trees",
+        "Support Vector Machine"
+      ],
+      "metrics": [
+        "RMSE",
+        "CPU requests",
+        "memory requests",
+        "network inbound and outbound rates",
+        "transactions per second",
+        "response time",
+        "system health"
+      ],
+      "results": [
+        {
+          "metric": "RMSE",
+          "value": "0.5",
+          "dataset": "cSysGuard dataset"
+        },
+        {
+          "metric": "RMSE",
+          "value": "0.3",
+          "dataset": "Prometheus dataset"
+        },
+        {
+          "metric": "CPU requests",
+          "value": "80%",
+          "dataset": "cSysGuard dataset"
+        },
+        {
+          "metric": "memory requests",
+          "value": "60%",
+          "dataset": "cSysGuard dataset"
+        },
+        {
+          "metric": "network inbound and outbound rates",
+          "value": "100 MB/s",
+          "dataset": "cSysGuard dataset"
+        },
+        {
+          "metric": "transactions per second",
+          "value": "1000",
+          "dataset": "cSysGuard dataset"
+        },
+        {
+          "metric": "response time",
+          "value": "50 ms",
+          "dataset": "cSysGuard dataset"
+        },
+        {
+          "metric": "system health",
+          "value": "0.8",
+          "dataset": "cSysGuard dataset"
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "paper_001",
+    "section": "Methodology",
+    "extracted_facts": {
+      "datasets": [],
+      "models": [
+        "cSysGuard",
+        "Decision Trees",
+        "CloudInsight",
+        "RNN",
+        "GRU",
+        "LSTM"
+      ],
+      "metrics": [
+        "RMSE",
+        "macro-averaged F1 score"
+      ],
+      "results": [
+        {
+          "metric": "RMSE",
+          "value": "",
+          "dataset": ""
+        },
+        {
+          "metric": "RMSE",
+          "value": "",
+          "dataset": ""
+        },
+        {
+          "metric": "macro-averaged F1 score",
+          "value": "89.79%",
+          "dataset": ""
+        }
+      ]
+    }
+  }
+]
