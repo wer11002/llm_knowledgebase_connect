@@ -1,0 +1,52 @@
+{
+  "paper1": {
+    "datasets": [],
+    "experiment": []
+  },
+  "paper3": {
+    "datasets": [
+      "real free-flow toll systems",
+      "custom private dataset"
+    ],
+    "experiment": [
+      {
+        "model": "CNN model",
+        "result": {
+          "accuracy": 99.0
+        }
+      },
+      {
+        "model": "CTv1 model",
+        "result": {
+          "F1": 92.94
+        }
+      },
+      {
+        "model": "InceptionV3",
+        "result": {
+          "F1": 90.88
+        }
+      },
+      {
+        "model": "VGG16",
+        "result": null
+      },
+      {
+        "model": "Yolo11m-cls",
+        "result": null
+      },
+      {
+        "model": "ResNet50",
+        "result": null
+      },
+      {
+        "model": "MobileNet",
+        "result": null
+      }
+    ]
+  },
+  "paper2": {
+    "datasets": [],
+    "experiment": []
+  }
+}
